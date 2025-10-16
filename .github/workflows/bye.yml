@@ -1,0 +1,8 @@
+name: bye-bye
+on: hello-world
+jobs:
+  my-job:
+    runs-on:ubuntu-latest
+    steps:
+      -name: bye-step
+      run: echo "Bye bye"
